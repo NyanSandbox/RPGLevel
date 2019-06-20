@@ -1,0 +1,6 @@
+author: NyanGuyMF
+name: RPGLevel
+version: ${project.version}
+main: nyanguymf.bukkit.rpglevel.RpgLevel
+
+softdepend: [PlaceholderAPI]

@@ -1,0 +1,16 @@
+group-1:
+  prefix: 'Supporter'
+  min-level: 0
+  max-level: 10
+group-2:
+  prefix: 'Legend'
+  min-level: 11
+  max-level: 20
+group-3:
+  prefix: 'Gold'
+  min-level: 21
+  max-level: 30
+group-4:
+  prefix: 'Titan'
+  min-level: 31
+  max-level: 40
