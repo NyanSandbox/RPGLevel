@@ -39,12 +39,7 @@ class RpgLevel : JavaPlugin() {
 
         PlayerDamageHandler(groupsConfig!!, messagesConfig!!).register(this)
 
-		if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
-			GroupPlaceholderExpansion(groupsConfig ?: return)
-		}
-    }
-
-    override fun onDisable() {
-
+        if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null)
+            GroupPlaceholderExpansion(groupsConfig ?: return)
     }
 }
